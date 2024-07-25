@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Bruno+Ace&family=Bruno+Ace+SC&family=Cinzel&family=Cinzel+Decorative&family=Foldit:wght@200&family=Inconsolata:wght@300&family=Lobster&family=Montserrat:wght@100;600&family=Nunito+Sans&family=Rajdhani&family=Raleway:wght@100;300&family=Space+Grotesk:wght@300&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+BE+VLG:wght@100..400&family=Tiny5&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/236x/30/e4/8e/30e48e92af953b1830fed8705f137f94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;      
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #f0f0f0;
+    
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+    color:aliceblue;
+}
+.field{
+    width: 100%;
+    background: transparent;   
+    border-color: transparent;
+    font-family: "Amatic SC", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+button{
+    width: 50%;
+    height: 40px;
+    
+    background: transparent;
+    border: white solid 1px;
+    outline: none;
+    cursor: pointer;
+    border-style: dotted;   
+    font-weight: 600;
+    color: #fff;
+    
+}
+
+button:hover{
+    width: 50%;
+    height: 40px;
+    
+    background-color: rgba(0, 0, 0, 0.315);
+    background-size: cover;
+    border: white solid 1px;
+    outline: none;
+    cursor: pointer;    
+    font-weight: 600;
+    color: #fff;
+   
+    
+}
